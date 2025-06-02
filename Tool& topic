@@ -94,3 +94,17 @@ if grep -q "login:" result.log; then
 else
     echo
     echo "❌ No valid password found."
+## ⚔️ Tools & Topics — Curated by Nomi G 👑
+
+This repo includes practical tools & labs personally used by **Nomi G** during his ethical hacking journey:
+
+- 🔐 `Hydra` — Brute Force King (Username/Password cracking)
+- 🌐 `Nmap` — Network Scanner for recon & host discovery
+- 📲 `Termux` — Android terminal for on-the-go hacking
+- 🔒 `ProtonVPN` — Safe and anonymous lab testing
+- 🧪 `Custom Bash Scripts` — Moka-style attack tools
+- 💣 `Password Lists` — Created, tested & refined by Nomi G
+- 🧠 `Practice Labs` — For beginners to test tools safely
+
+> 👸 Powered by Narmeen — The Cracking Queen  
+> 🧠 Inspired by curiosity, backed by code.
