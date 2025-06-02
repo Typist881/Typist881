@@ -1,0 +1,38 @@
+# 🧠 Cracking and Learning 🔓
+
+> **"Learning the game, mastering the code."**  
+> Educational Project for Ethical Hacking & Security Research — powered by passion, curiosity, and command lines. 🖥️⚡
+
+---
+
+## 📚 About This Project
+
+This repository is dedicated to **learning, exploring, and understanding** various aspects of:
+
+- 🔐 Ethical Hacking
+- 🔍 Cybersecurity Basics
+- 💻 Cracking (For Educational Purpose Only)
+- 🧪 Practical Labs & Tools (Hydra, Nmap, Burp Suite, etc.)
+
+Everything here is for **educational purposes only**. No illegal activity is supported or promoted.
+
+---
+
+## 🔧 Tools and Topics Covered
+
+- ⚔️ Hydra Brute Force Attacks (Practice Labs)
+- 🛰️ Network Scanning with Nmap
+- 🧰 Termux + ProtonVPN Setup
+- 🕸️ Website Reconnaissance
+- 🧱 Custom Scripts & Bash Tools
+- 🔎 WiFi, Web, and Password Cracking Concepts
+
+---
+
+## 🚀 Getting Started
+
+Clone the repo:
+
+```bash
+git clone https://github.com/NomiG/Cracking-And-Learning.git
+cd Cracking-And-Learning
